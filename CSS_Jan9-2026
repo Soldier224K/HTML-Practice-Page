@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <title>HTML Practice Page</title>
+        <meta>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+                background-color: lightyellow;
+            }
+            
+            #button1 {
+                background-color: tomato;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+
+                
+        
+            }
+            #button1:hover {
+                background-color: darkred;
+                cursor: pointer;
+                box-shadow: 10px 10px 5px gray;
+
+            }
+            #Headings:hover {
+                color: blue;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 20px;
+                font-size:14px;
+                color: gray;
+            }
+            #smallheading {
+                
+                color: green;
+                text-spacing-trim: 10px;
+                opacity: 0.7;
+                letter-spacing: 10px;
+                
+            }
+            #Headings {
+                color: orange;
+                text-align: center;
+                font-size: 60px;
+                text-shadow: 3px 3px 5px gray;
+            }
+            #order {
+                color: violet;
+            }
+            .paragraphs {
+                font-size: 18px;
+                text-shadow: 2px 2px 5px lightgray;
+                color: brown;
+                background-color: aquamarine;
+                border-radius: 5px;
+                line-height: 40px;
+                
+
+            }
+            pre{
+                font-family:monospace;
+                font-size:20px;
+                background-color: black;
+                color:greenyellow;
+
+            }
+            .paragraphs2 {
+                font-size: 18px;
+                color: red;
+                background-color: black;
+                rotate: -15deg;
+                border-radius: 5px;
+                border-color: red;
+                border: 10px solid red
+                ;
+               
+                
+            }
+            hr {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                size:5px;
+                width:50%;
+                border-radius: 5px;
+                
+            }
+            ul.Unordered_list {
+                list-style:none;
+                line-height: 30px;
+                letter-spacing: 4px;
+                color: teal;
+                background-color: lightpink;
+            }
+            ol#order {
+                line-height: 30px;
+                color: purple;
+                list-style: upper-roman;
+                font-weight: bolder;
+                letter-spacing: 2px;
+            }
+            a:hover {
+                color: tomato;
+                font-size: 25px;
+                text-decoration: underline;
+            }
+            a {
+                text-decoration: none;
+                color: tomato;
+                font-size: 20px;
+            }
+            div{
+                border-radius: 5px;
+                border:5px solid black;
+                box-shadow: 10px 10px 10px gray;
+
+            }
+            span {
+                color: red;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1 id="Headings">HTML Practice Page</h1>
+        <h3 id="smallheading">Let's Practice</h3>
+        <p class="Paragraphs"><b><strong><i><em>Practice makes perfect! . I do not Practice .</em></i></strong></b></p>
+        <p class="Paragraphs2"> HTML is a markup language. I don't practice. I still know some .</p>
+        <br>
+        <hr >
+        <pre>
+            My Name is Raj Rasal 
+            I am learning HTML
+            I love to enjoy .
+        </pre>
+        <ul class="Unordered_list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+        </ul>
+        <ol id="order">
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ol>
+        <a href="https://www.google.com">Google</a>
+        <div>
+            This is a
+            <span>
+                 span element 
+            </span>inside a div.
+            
+        </div>
+        <button id="button1">Submit</button>
+        <footer class="footer">All right are reserved.</footer>
+    </body>
+</html>
